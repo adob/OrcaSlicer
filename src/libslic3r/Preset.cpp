@@ -1170,6 +1170,7 @@ static std::vector<std::string> s_Preset_print_options{
     "calib_flowrate_topinfill_special_order",
     // Z Anti-Aliasing (ZAA)
     "zaa_enabled",
+    "zaa_region_disable",
     "zaa_minimize_perimeter_height",
     "zaa_dont_alternate_fill_direction",
     "zaa_min_z",

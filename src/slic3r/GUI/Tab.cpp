@@ -2342,6 +2342,7 @@ void TabPrint::build()
 
         optgroup = page->new_optgroup("Z Contouring", L"param_advanced");
         optgroup->append_single_option_line("zaa_enabled");
+        optgroup->append_single_option_line("zaa_region_disable");
         optgroup->append_single_option_line("zaa_minimize_perimeter_height");
         optgroup->append_single_option_line("zaa_min_z");
         optgroup->append_single_option_line("ironing_expansion");
