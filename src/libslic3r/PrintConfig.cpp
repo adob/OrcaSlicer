@@ -4074,6 +4074,13 @@ void PrintConfigDef::init_fff_params()
     def->mode     = comAdvanced;
     def->set_default_value(new ConfigOptionBool(false));
 
+    def = this->add("zaa_region_disable", coBool);
+    def->label    = L("Disable Z contouring for region");
+    def->category = L("Quality");
+    def->tooltip  = L("Disable Z contouring for this specific print region, allowing per-object control when Z contouring is enabled globally.");
+    def->mode     = comAdvanced;
+    def->set_default_value(new ConfigOptionBool(false));
+
     def = this->add("zaa_minimize_perimeter_height", coFloat);
     def->label    = L("Minimize wall height angle");
     def->category = L("Quality");
